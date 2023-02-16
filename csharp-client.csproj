@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>apiflash</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Timothée Jeannin</Authors>
+    <Description>ApiFlash CSharp Client</Description>
+    <RootNamespace>apiflash</RootNamespace>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
